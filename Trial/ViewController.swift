@@ -11,11 +11,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        working()
         // Do any additional setup after loading the view.
     }
 
     func working(){
         print("working")
+    }
+    
+    func yes(){
+        print("yes")
     }
 }
 
